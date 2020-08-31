@@ -13,16 +13,18 @@ For more details, please refer to requiremnt file.
 ### Training
 #### [MATH23K]
 first get into the math23k directory:
-* cd math23k
+* ``cd math23k``
+
 training-test setting :
-* python run_seq2tree_graph.py
+* ``python run_seq2tree_graph.py``
+
 cross-validation setting :
-* python cross_valid_graph2tree.py
+* ``python cross_valid_graph2tree.py``
 
 #### [MAWPS]
 cross-validation setting :
-* cd mawps
-* python cross_valid_mawps.py
+* ``cd mawps``
+* ``python cross_valid_mawps.py``
 
 ### Reference
 ```
