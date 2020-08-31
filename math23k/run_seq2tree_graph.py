@@ -83,15 +83,6 @@ pairs = temp_pairs
 
 train_fold, test_fold, valid_fold = get_train_test_fold(ori_path,prefix,data,pairs,group_data)
 
-'''
-fold_size = int(len(pairs) * 0.2)
-fold_pairs = []
-for split_fold in range(4):
-    fold_start = fold_size * split_fold
-    fold_end = fold_size * (split_fold + 1)
-    fold_pairs.append(pairs[fold_start:fold_end])
-fold_pairs.append(pairs[(fold_size * 4):])
-'''
 
 best_acc_fold = []
 
