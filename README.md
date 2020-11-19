@@ -11,8 +11,20 @@ PyTorch implementation of Graph based Math Word Problem solver described in our 
 For more details, please refer to requiremnt file.
 
 ### Training
-* python run_seq2tree_graph.py
+#### [MATH23K]
+first get into the math23k directory:
+* ``cd math23k``
 
+training-test setting :
+* ``python run_seq2tree_graph.py``
+
+cross-validation setting :
+* ``python cross_valid_graph2tree.py``
+
+#### [MAWPS]
+cross-validation setting :
+* ``cd mawps``
+* ``python cross_valid_mawps.py``
 
 ### Reference
 ```
